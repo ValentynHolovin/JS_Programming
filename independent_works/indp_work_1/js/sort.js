@@ -58,23 +58,15 @@ const clearArr = () => {
     return [];
 };
 
-const quickSortFullProcess = () => {
-    console.log("========================================== QuickSort ==========================================");
+const doSort = (sortFunc, sortTypeName) => {
+    console.log(sortTypeName);
     initArr(arr);
     arrPrint(arr);
-    quickSort(arr, 0, arr.length - 1);
-    arrPrint(arr);
-    clearArr(arr);
-};
-
-const bubbleSortFullProcess = () => {
-    console.log("========================================== BubbleSort ==========================================");
-    initArr(arr);
-    arrPrint(arr);
-    bubbleSort(arr);
+    sortFunc(arr, 0, arr.length - 1);
     arrPrint(arr);
 };
 
-quickSortFullProcess();
+doSort(quickSort, "========================================== QuickSort ==========================================");
 arr = clearArr();
-bubbleSortFullProcess();
+doSort(bubbleSort, "========================================== BubbleSort ==========================================");
+
