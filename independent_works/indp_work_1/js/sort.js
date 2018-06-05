@@ -1,4 +1,6 @@
 let arr = [];
+const quickSortTitle = "========================================== QuickSort ==========================================";
+const bubbleSortTitle = "========================================== BubbleSort =========================================";
 
 const initArr = (arr) => {
     for(let i = 0; i < 20; i++) {
@@ -66,7 +68,7 @@ const doSort = (sortFunc, sortTypeName) => {
     arrPrint(arr);
 };
 
-doSort(quickSort, "========================================== QuickSort ==========================================");
+doSort(quickSort, quickSortTitle);
 arr = clearArr();
-doSort(bubbleSort, "========================================== BubbleSort ==========================================");
+doSort(bubbleSort, bubbleSortTitle);
 

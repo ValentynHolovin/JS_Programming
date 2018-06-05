@@ -1,0 +1,22 @@
+Задание №6. Преобразование данных
+Есть следующий код:
+var x = 1;
+var y = 2;
+var res1 = // Допишите код, необходимо использовать
+переменные x и y
+console.log(res1); // &quot;12&quot;
+console.log(typeof res1); // &quot;string&quot;
+var res2 = // Допишите код, необходимо использовать
+переменные x и y
+console.log(res2); // &quot;true2&quot;
+console.log(typeof res2); // &quot;string&quot;
+var res3 = // Допишите код, необходимо использовать
+переменные x и y
+console.log(res3); // true
+console.log(typeof res3); // &quot;boolean&quot;
+var res4 = // Допишите код, необходимо использовать
+переменные x и y
+console.log(res4); // NaN
+console.log(typeof res4); // &quot;number&quot;
+Допишите код, чтобы в консоли браузера появились строки, которые написаны
+в комментариях.
